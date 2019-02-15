@@ -21,9 +21,7 @@ class CustomerTableSeeder extends Seeder
             'id_number' => '27064104',
             'status' => 'true',
             'reg_date' => date('Y-m-d H:i:s'),
-            'last_activity' => 'Transaction actiivty',
-            'phone_number' => '0742074587',
-            'pin' => '3345'
+            'phone_number' => '0742074587'
 
         ]);
 
@@ -34,9 +32,7 @@ class CustomerTableSeeder extends Seeder
             'id_number' => '37064109',
             'status' => 'false',
             'reg_date' => date('Y-m-d H:i:s'),
-            'last_activity' => 'Login actiivty',
-            'phone_number' => '0762074587',
-            'pin' => '4345'
+            'phone_number' => '0762074587'
 
         ]);
 
@@ -47,10 +43,7 @@ class CustomerTableSeeder extends Seeder
             'id_number' => '45064104',
             'status' => 'true',
             'reg_date' => date('Y-m-d H:i:s'),
-            'last_activity' => 'Register actiivty',
-            'phone_number' => '0732074587',
-            'pin' => '5345'
-
+            'phone_number' => '0732074587'
         ]);
 
         $customer4 = Tbl_mobile_customer_detail::create([
@@ -60,10 +53,7 @@ class CustomerTableSeeder extends Seeder
             'id_number' => '1264104',
             'status' => 'false',
             'reg_date' => date('Y-m-d H:i:s'),
-            'last_activity' => 'some actiivty',
-            'phone_number' => '0722074587',
-            'pin' => '6345'
-
+            'phone_number' => '0722074587'
         ]);
 
         $customer5 = Tbl_mobile_customer_detail::create([
@@ -73,10 +63,7 @@ class CustomerTableSeeder extends Seeder
             'id_number' => '35064104',
             'status' => 'true',
             'reg_date' => date('Y-m-d H:i:s'),
-            'last_activity' => 'some actiivty',
-            'phone_number' => '0712074587',
-            'pin' => '7345'
-
+            'phone_number' => '0712074587'
         ]);
     }
 }

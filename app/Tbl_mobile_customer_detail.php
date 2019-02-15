@@ -15,7 +15,7 @@ class Tbl_mobile_customer_detail extends Model implements Wallet
     use HasWallet;
 
     protected $fillable = [
-        'username', 'first_name', 'second_name', 'reg_date', 'id_number', 'last_activity', 'phone_number', 'pin', 'status',
+        'username', 'first_name', 'second_name', 'reg_date', 'id_number',  'phone_number', 'status',
     ];
 
 

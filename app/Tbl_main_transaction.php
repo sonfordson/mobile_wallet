@@ -12,7 +12,6 @@ class Tbl_main_transaction extends Model
     ];
 
 
-
     public function scopeUserTransfers($query, $user)
     {
         return $query->where('from', $user);

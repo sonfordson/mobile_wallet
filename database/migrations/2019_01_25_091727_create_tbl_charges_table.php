@@ -18,8 +18,8 @@ class CreateTblChargesTable extends Migration
             $table->string('min');
             $table->string('max');
             $table->string('withdraw_charges');
-            $table->string('unregistered_user');
-            $table->string('registered_user');
+            $table->string('send_to_unregistered_user');
+            $table->string('send_to_registered_user');
             $table->timestamps();
         });
     }

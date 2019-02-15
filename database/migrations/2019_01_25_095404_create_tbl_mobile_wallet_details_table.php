@@ -24,8 +24,6 @@ class CreateTblMobileWalletDetailsTable extends Migration
             $table->string('last_activity');
             $table->string('phone_number');
             $table->string('pin');
-            $table->integer('mobile_wallet_detail_id')->unsigned();
-            $table->foreign('mobile_wallet_detail_id')->references('id')->on('tbl_mobile_customer_details');
 
             $table->timestamps();
         });

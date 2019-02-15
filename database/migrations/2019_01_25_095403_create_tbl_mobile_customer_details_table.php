@@ -21,9 +21,7 @@ class CreateTblMobileCustomerDetailsTable extends Migration
             $table->date('reg_date');
             $table->string('id_number');
             $table->string('status');
-            $table->string('last_activity');
             $table->string('phone_number');
-            $table->string('pin');
             $table->timestamps();
         });
     }
